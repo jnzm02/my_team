@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -22,7 +23,7 @@ header {
     font-size: 36px;
     font-weight: bold;
     letter-spacing: -0.045em;
-    font-family: 'PT Serif';
+    font-family: 'PT Serif', sans-serif;
 }
 
 .header-right-top {
@@ -35,7 +36,7 @@ header {
 .header-right-bottom {
     font-size: 18px;
     max-width: 439px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 
@@ -89,7 +90,7 @@ main {
 }
 
 .hero-name {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
 }
@@ -97,7 +98,7 @@ main {
 footer {
     /* position: absolute; */
     /* bottom: 0; */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     color: #A9A9A9;
     font-size: 14px;
@@ -109,7 +110,7 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
     color:#A9A9A9;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 401px) {
     main {
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
